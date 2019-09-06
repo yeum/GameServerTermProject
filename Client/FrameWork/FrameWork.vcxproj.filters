@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{21f879f5-6bff-4d5c-b72e-ff488eb648a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork">
+      <UniqueIdentifier>{184cd886-14a1-41c4-b1f8-cb372a5aca0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork\WinMain">
+      <UniqueIdentifier>{6c6f5b52-57cd-4757-a033-d24ecd9c039e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\MyGame">
+      <UniqueIdentifier>{9f585b63-8d6e-410f-a5cc-2a57eff6abe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork\FWMain">
+      <UniqueIdentifier>{996a149c-9180-46d8-9d42-bc7a80b8d13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork\FWMain\FWWindows">
+      <UniqueIdentifier>{c7297b8d-9e4f-4788-bbbf-a9a6719d13a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork\SceneManager">
+      <UniqueIdentifier>{967d1d24-ad00-44e7-9c12-42d0f65eb290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork\SceneManager\Scene">
+      <UniqueIdentifier>{20b74fb5-2e09-4d23-85e2-db13dc05721f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork\Sprite">
+      <UniqueIdentifier>{d8e50ec3-3827-4a7b-b625-7454b86fbd75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\MyGame\Chess">
+      <UniqueIdentifier>{6a9beb1a-d8f0-496c-87ef-863a17abb74e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\MyGame\Chess_iocp">
+      <UniqueIdentifier>{8bd03806-3e26-48a0-9210-12e5e44be85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\FrameWork\Network">
+      <UniqueIdentifier>{57b79161-f5e2-4310-9402-c5bda812fe3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Project\FrameWork\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="FWMain.cpp">
+      <Filter>Project\FrameWork\FWMain</Filter>
+    </ClCompile>
+    <ClCompile Include="FWWindows.cpp">
+      <Filter>Project\FrameWork\FWMain\FWWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Project\FrameWork\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Project\FrameWork\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess.cpp">
+      <Filter>Project\MyGame\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess_iocp.cpp">
+      <Filter>Project\MyGame\Chess_iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Project\FrameWork\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyInclude.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDefine.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="FWMain.h">
+      <Filter>Project\FrameWork\FWMain</Filter>
+    </ClInclude>
+    <ClInclude Include="FWWindows.h">
+      <Filter>Project\FrameWork\FWMain\FWWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Project\FrameWork\SceneManager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Project\FrameWork\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Project\FrameWork\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Chess.h">
+      <Filter>Project\MyGame\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess_iocp.h">
+      <Filter>Project\MyGame\Chess_iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Project\FrameWork\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Server\sub4_IOCP\protocol.h">
+      <Filter>Project\FrameWork\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

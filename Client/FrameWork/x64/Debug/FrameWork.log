@@ -1,0 +1,23 @@
+﻿  Chess_iocp.cpp
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.h(77): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.h(78): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.cpp(174): warning C4244: '초기화 중': 'clock_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.cpp(184): warning C4244: '초기화 중': 'clock_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.cpp(244): warning C4244: '인수': 'clock_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.cpp(245): warning C4244: '인수': 'clock_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FWMain.cpp
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.h(77): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.h(78): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FWWindows.cpp
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\fwwindows.cpp(5): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Network.cpp
+  SceneManager.cpp
+  Sprite.cpp
+  WinMain.cpp
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.h(77): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\chess_iocp.h(78): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\winmain.cpp(51): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\winmain.cpp(107): warning C4244: '인수': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\studyinkpu\4학년1학기\게임서버\텀프\client\framework\winmain.cpp(112): warning C4244: '인수': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  FrameWork.vcxproj -> D:\StudyinKPU\4학년1학기\게임서버\텀프\Client\x64\Debug\FrameWork.exe
